@@ -1,5 +1,5 @@
+set -x PATH /opt/homebrew/bin $PATH
 set PATH $HOME/Library/flutter/bin:$PATH
-
 set PATH $TO_FISH_PATH $PATH
 set PATH $HOME/.pub-cache/bin:$PATH
 set PATH $HOME/Library/Android/sdk/platform-tools:$PATH
