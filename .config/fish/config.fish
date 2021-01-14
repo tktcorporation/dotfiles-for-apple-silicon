@@ -21,4 +21,4 @@ set -x EDITOR code-insiders
 
 # alias
 
-alias aws "docker run --rm -it -v ~/.aws:/root/.aws -v (pwd):/aws amazon/aws-cli"
+alias aws "docker run --rm -it -v ~/.aws:/root/.aws -v (pwd):/aws -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_DEFAULT_REGION amazon/aws-cli"
