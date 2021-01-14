@@ -10,3 +10,7 @@
 	required = true
 [alias]
 	showpr = "!f() { git log --merges --oneline --reverse --ancestry-path $1...master | grep 'Merge pull request #' | head -n 1; }; f"
+[merge]
+	ff = false
+[pull]
+	ff = only
